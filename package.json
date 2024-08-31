@@ -2,10 +2,13 @@
   "name": "itis-6177-week-01-pdutch",
   "version": "1.0.0",
   "description": "Class app for system integrators in ITIS-6177",
-  "main": "server.js",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.6.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "author": "Patrick Dutch",
   "license": "ISC",
